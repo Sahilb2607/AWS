@@ -10,7 +10,7 @@ app.get("/health",(req,res)=>{
    return res.status(200).json({message:"all is good👍"})
 })
 app.get("/",(req,res)=>{
-   return res.status(200).json({message:"hello ayush v4👍"})
+   return res.status(200).json({message:"hello ayush v3👍"})
 })
 // Key-pair is very important to access EC2 instance from local machine
 // i.e ham uss ka command apne command prompt pe de sakte hain
