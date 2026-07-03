@@ -6,10 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahilb2607/AWS.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
+  "homepage": "https://github.com/Sahilb2607/AWS#readme",
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"

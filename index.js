@@ -15,7 +15,8 @@ app.get("/",(req,res)=>{
 // Key-pair is very important to access EC2 instance from local machine
 // i.e ham uss ka command apne command prompt pe de sakte hain
 // Now if we have changes in the file
-// first we have to push it in the github then in the ubuntu one we have to write git pull
+// first we have to again commit it i.e push it in the github then in the ubuntu we have to write git pull where we had written git clone url
+// (git inbuild hota h docker ko install karna padta hain)
 // Then we have stop the container as image has been build earlier so changes wont be seen 
 // in the running container(kyunki dockerfile mein apan ne likha copy .. toh pehle toh vo nhi tha(changes) 
 // isiliye ab new image se build karna hoga wapis)
